@@ -29,9 +29,9 @@ def hello():
 
 @app.route('/listele',methods=['GET'])
 def yazdir():
-    return veri1["ad"]
+    return veri1
 
-    
+
 if __name__ == '__main__':
     import os
     HOST = os.environ.get('SERVER_HOST', 'localhost')
